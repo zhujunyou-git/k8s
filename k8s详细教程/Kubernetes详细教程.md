@@ -1520,7 +1520,7 @@ spec:  #必选，Pod中容器的详细定义
         cpu: string     #Cpu的限制，单位为core数，将用于docker run --cpu-shares参数
         memory: string  #内存限制，单位可以为Mib/Gib，将用于docker run --memory参数
       requests: #资源请求的设置
-        cpu: string    #Cpu请求，容器启动的初始可用数量
+        cpu: string    #Cpu请求，容器启动的初始可用数量1核=1000M
         memory: string #内存请求,容器启动的初始可用数量
     lifecycle: #生命周期钩子
         postStart: #容器启动后立即执行此钩子,如果执行失败,会根据重启策略进行重启
@@ -2711,7 +2711,7 @@ NAME                        READY   STATUS    RESTARTS   AGE   IP            NOD
 pod-nodeaffinity-required   1/1     Running   0          11s   10.244.1.89   node1 ......
 ```
 
-接下来再演示一下`requiredDuringSchedulingIgnoredDuringExecution` ,
+接下来再演示一下`preferredDuringSchedulingIgnoredDuringExecution` ,
 
 创建pod-nodeaffinity-preferred.yaml
 
@@ -5020,6 +5020,10 @@ NFS是一个网络文件存储系统，可以搭建一台NFS服务器，然后�
 [root@nfs ~]# vim /etc/exports
 [root@nfs ~]# more /etc/exports
 /root/data/nfs     192.168.5.0/24(rw,no_root_squash)
+echo "/data/cloudstudio *(rw,sync,no_root_squash,insecure,no_subtree_check,fsid=0,nohide)" > /etc/exports
+exportfs -rv
+showmount -e
+mount -t nfs 10.200.134.76:/data/cloudstudio /opt/log   手动挂载
 
 # 启动nfs服务
 [root@nfs ~]# systemctl restart nfs
