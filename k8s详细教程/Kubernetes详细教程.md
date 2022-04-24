@@ -1,6 +1,6 @@
 ## 							Kubernetes详细教程
 
-### 1. Kubernetes介绍11
+### 1. Kubernetes介绍
 
 #### 1.1 应用部署方式演变
 
