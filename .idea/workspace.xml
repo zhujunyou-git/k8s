@@ -27,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650792181417</updated>
-      <workItem from="1650792189087" duration="558000" />
+      <workItem from="1650792189087" duration="1104000" />
     </task>
     <task id="LOCAL-00001" summary="试试">
       <created>1650792265530</created>
@@ -66,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650792462849</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="del new.php">
+      <created>1650792938805</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650792938805</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,24 +82,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="试试" />
-    <option name="LAST_COMMIT_MESSAGE" value="试试" />
+    <MESSAGE value="del new.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="del new.php" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="117" key="CommitChangelistDialog2" timestamp="1650792462048">
+    <state x="560" y="117" key="CommitChangelistDialog2" timestamp="1650792937977">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="560" y="117" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1650792462048" />
+    <state x="560" y="117" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1650792937977" />
     <state x="776" y="448" key="NewPhpFileDialog" timestamp="1650792425408">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="776" y="448" key="NewPhpFileDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1650792425408" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1650792911979">
+    <state x="461" y="167" key="SettingsEditor" timestamp="1650793293637">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1650792911979" />
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1650793293637" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1650793472608">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1650793472608" />
     <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1650792189107">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1650792189107" />
+    <state x="759" y="390" key="git4idea.rebase.GitRebaseDialog" timestamp="1650793051217">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="759" y="390" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1650793051217" />
   </component>
 </project>
